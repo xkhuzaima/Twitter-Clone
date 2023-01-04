@@ -1,0 +1,110 @@
+.sideBar > h1 > .MuiSvgIcon-root {
+  font-size: 35px;
+  position: fixed;
+  margin-top: 10px;
+  top: 0;
+  color: #d6d9db;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.sideBar > h1 > .MuiSvgIcon-root:hover {
+  color: #ffffff;
+}
+
+.sideBarList {
+  position: fixed;
+  top: 40px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.sideBarList > .sideBarListItem {
+  padding: 8px 0;
+  color: #d6d9db;
+  cursor: pointer;
+  font-size: 1.3rem;
+  width: max-content;
+  padding-inline: 15px;
+  padding-right: 20px;
+  transition: 0.1s;
+  border-radius: 40px;
+}
+
+.sideBarList > .sideBarListItem:hover {
+  background-color: #181818;
+}
+
+.sideBarList > .sideBarListItem > .sidebarIcon {
+  margin-right: 20px;
+  font-size: 35px;
+}
+
+.sideBarList > .sideBarListItem:hover {
+  color: #ffffff;
+}
+
+.sideBarTweetButton {
+  position: fixed;
+  bottom: 150px;
+  margin-left: 10px;
+  width: 250px;
+  padding: 10px 0;
+  border-radius: 30px;
+  background-color: #1da1f2;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.sideBarTweetButton:hover {
+  background-color: #1a91da;
+}
+
+.profileSetting {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+  border-radius: 40px;
+  padding: 8px 0;
+  transition: 0.1s;
+}
+
+.profileSetting:hover {
+  background-color: #181818;
+}
+
+.profileSetting > div > .MuiAvatar-root {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.profileSetting > .MuiSvgIcon-root {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.profileSettingInfo {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.profileSettingInfo > h5 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.profileSettingInfo > p {
+  font-size: 0.9rem;
+  color: #676b6f;
+}

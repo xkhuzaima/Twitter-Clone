@@ -1,0 +1,354 @@
+.home {
+  display: flex;
+  border-left: 1px solid #181818;
+}
+
+.header {
+  border-right: 1px solid #181818;
+  color: #fff;
+  padding: 20px;
+  width: 600px;
+  border-bottom: 1px solid #181818;
+}
+
+.header > .row-between {
+  height: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: -20px;
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  position: fixed;
+  top: 0;
+}
+
+.header > .row-between > h4 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #d6d9db;
+}
+
+.headerIcon {
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.headerIcon:hover {
+  background-color: #181919;
+}
+
+.headerCreate {
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+.headerCreateInput {
+  resize: none;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: large;
+  border-radius: 5px;
+  padding: 13px;
+  background-color: #000000;
+  color: #fff;
+  outline: none;
+  border: 0;
+}
+
+.headerCreateButton {
+  margin-top: -20px;
+}
+
+.headerCreateButton > button {
+  background-color: #1d9bf0;
+  color: #fff;
+  border: none;
+  width: 80px;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+
+.headerCreateButton > button:hover {
+  background-color: #0f7bb7;
+}
+
+.headerCreateIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.headerCreateIcons > .MuiSvgIcon-root {
+  color: #1d9bf0;
+  width: 35px;
+  height: 35px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.headerCreateIcons > .MuiSvgIcon-root:hover {
+  background-color: #031018;
+}
+
+.feed {
+  border-right: 1px solid #181818;
+  width: 600px;
+}
+
+.feedItem {
+  padding-top: 20px;
+  padding-left: 20px;
+  border-bottom: 1px solid #181818;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.feedItem:hover {
+  background-color: #080808;
+}
+
+.feedItemInfo > h4 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #ffffff;
+}
+
+.feedItemInfo > p {
+  font-size: 0.9rem;
+  margin-right: 5px;
+  color: #676b6f;
+  margin-top: -4px;
+  font-weight: 500;
+}
+
+.feedMoreIcon {
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.feedMoreIcon:hover {
+  color: #1d9bf0;
+  background-color: #0a171f;
+}
+
+.feedItemContent {
+  margin-top: -25px;
+  margin-left: 60px;
+}
+
+.feedItemContent > h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #e7e9ea;
+  margin-bottom: 10px;
+}
+
+.feedItemContent > h4 > img {
+  width: 95%;
+  margin-bottom: 10px;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.feedItemFooter {
+  margin-left: 60px;
+  margin-bottom: 2px;
+}
+
+.feedItemIcons {
+  margin-top: -10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.feedItemFooter > .row-between > .feedItemIcons > .MuiSvgIcon-root {
+  width: 30px;
+  height: 30px;
+  color: #676b6f;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.feedItemFooter > .row-between > .feedItemIcons > p {
+  color: #676b6f;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+
+/* Diff Icons Diff Colors */
+
+.feedItemFooter > .row-between > .View:hover > .MuiSvgIcon-root {
+  color: #1d9bf0;
+  background-color: #0a171f;
+}
+
+.feedItemFooter > .row-between > .View:hover > p {
+  color: #1d9bf0;
+}
+
+.feedItemFooter > .row-between > .Reply:hover > .MuiSvgIcon-root {
+  color: #1d9bf0;
+  background-color: #0a171f;
+}
+
+.feedItemFooter > .row-between > .Reply:hover > p {
+  color: #1d9bf0;
+}
+
+.feedItemFooter > .row-between > .Share:hover > .MuiSvgIcon-root {
+  color: #1d9bf0;
+  background-color: #0a171f;
+}
+
+.feedItemFooter > .row-between > .Share:hover > p {
+  color: #1d9bf0;
+}
+
+.feedItemFooter > .row-between > .ReTweet:hover > .MuiSvgIcon-root {
+  color: #00b075;
+  background-color: #071a14;
+}
+
+.feedItemFooter > .row-between > .ReTweet:hover > p {
+  color: #00b075;
+}
+
+.feedItemFooter > .row-between > .Like:hover > .MuiSvgIcon-root {
+  color: #f91880;
+  background-color: #200914;
+}
+
+.feedItemFooter > .row-between > .Like:hover > p {
+  color: #f91880;
+}
+
+.search {
+  margin-top: -10px;
+  padding-left: 20px;
+  width: 420px;
+}
+
+.searchTwitter {
+  position: fixed;
+  width: 380px;
+  margin-top: 20px;
+  background-color: #202327;
+  border-radius: 20px;
+}
+
+.searchTwitter > div > .MuiSvgIcon-root {
+  color: #676c71;
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.searchTwitter > div > input {
+  width: 80%;
+  height: 45px;
+  border: none;
+  background-color: #202327;
+  color: #fff;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.trends {
+  position: fixed;
+  top: 50px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-left: 20px;
+  width: 380px;
+  border-radius: 20px;
+  background-color: #16181c;
+}
+
+.trends > h4 {
+  color: #e7e9ea;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.trend {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: -10px;
+}
+
+.trend:hover {
+  background-color: #1d1f23;
+}
+
+.trend > div > h4 {
+  color: #e7e9ea;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.trend > div > p {
+  color: #676b6f;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.trend > .MuiSvgIcon-root {
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.trend > .MuiSvgIcon-root:hover {
+  color: #1d9bf0;
+  background-color: #1d2c37;
+}
+
+.trendsFooter {
+  padding: 10px;
+  cursor: pointer;
+  color: #1d9bf0;
+  transition: 0.5s;
+  margin-left: -10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.trendsFooter:hover {
+  background-color: #1d1f23;
+}

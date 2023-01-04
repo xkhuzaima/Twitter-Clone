@@ -1,0 +1,52 @@
+{
+  "trend": [
+    {
+      "id": 1,
+      "trendlocation": "Pakistan",
+      "trendname": "#ChillnCode",
+      "trendtweetcount": 3900
+    },
+    {
+      "id": 2,
+      "trendlocation": "",
+      "trendname": "#OP-PEEPS",
+      "trendtweetcount": 121
+    },
+    {
+      "id": 3,
+      "trendlocation": "Pakistan",
+      "trendname": "SUBSCRIBE TO MY CHANNEL",
+      "trendtweetcount": 12123
+    },
+    {
+      "id": 4,
+      "trendlocation": "",
+      "trendname": "#DoDo",
+      "trendtweetcount": 3234
+    },
+    {
+      "id": 5,
+      "trendlocation": "America",
+      "trendname": "New Your City",
+      "trendtweetcount": 2323
+    },
+    {
+      "id": 6,
+      "trendlocation": "",
+      "trendname": "Jame",
+      "trendtweetcount": 2767
+    },
+    {
+      "id": 7,
+      "trendlocation": "Tech",
+      "trendname": "#macOS",
+      "trendtweetcount": 2132
+    },
+    {
+      "id": 8,
+      "trendlocation": "Tech",
+      "trendname": "#Windows",
+      "trendtweetcount": 2677
+    }
+  ]
+}

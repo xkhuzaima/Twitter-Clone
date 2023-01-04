@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+  
     {
       "name": "Run application",
       "type": "node",
@@ -8,13 +9,8 @@
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "runtimeExecutable": "npm",
-      "runtimeArgs": [
-        "run-script",
-        "start"
-      ],
-      "skipFiles": [
-        "<node_internals>/**"
-      ]
+      "runtimeArgs": ["run-script", "start"],
+      "skipFiles": ["<node_internals>/**"]
     }
   ]
 }

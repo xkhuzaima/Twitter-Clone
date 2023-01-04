@@ -1,13 +1,117 @@
+/* ----------------- Twitter Clone ----------------- */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.appContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.sideBar {
+  padding-left: 50px;
+  width: 25%;
+  border-right: 1px solid #181818;
+}
+
+.outlet {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.scroll {
+  height: 72.9vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.center-middle {
+  top: 50%;
+  transform: translate(0, -50%);
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1318;
+}
+::-webkit-scrollbar-thumb {
+  background: #1b2129;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(31, 31, 31) 129;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.row-nospace {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.row-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-nospace {
+  display: flex;
+}
+
+.row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.center {
+  text-align: center;
 }

@@ -1,0 +1,139 @@
+.profile {
+  width: 600px;
+  border-right: 1px solid #181818;
+  border-left: 1px solid #181818;
+}
+
+.headerProfile {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  border-right: 1px solid #181818;
+  color: #fff;
+  padding: 10px;
+  width: 600px;
+  border-bottom: 1px solid #181818;
+}
+
+.headerProfile > div > .MuiSvgIcon-root {
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.headerProfile > div > div > h4 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #d6d9db;
+}
+
+.headerProfile > div > div {
+  margin-left: 20px;
+}
+
+.headerProfile > div > div > p {
+  font-size: 0.8rem;
+  color: #676b6f;
+}
+
+.editProfileBtn {
+  height: 35px;
+  margin-right: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-inline: 15px;
+  background-color: #000;
+  color: #eff3f4;
+  border-radius: 20px;
+  border: 1px solid #536471;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.editProfileBtn:hover {
+  background-color: #181919;
+}
+
+.profileInfo {
+  margin-top: 65px;
+}
+
+.profileInfo > img {
+  border-right: 1px solid #181818;
+}
+
+.profileInfo > div > h4 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #e7e9ea;
+}
+
+.profileInfo > div > p {
+  font-size: 0.8rem;
+  color: #676b6f;
+}
+
+.profileInfo > div > .desc {
+  margin-top: 10px;
+  width: 550px;
+  font-size: 0.8rem;
+  color: #e7e9ea;
+  font-weight: 600;
+}
+
+.profileInfo > div > .joinDate {
+  margin-top: 10px;
+}
+
+.profileInfo > div > .joinDate > .MuiSvgIcon-root {
+  font-size: 1.2rem;
+  margin-top: -5px;
+  margin-right: 5px;
+}
+
+.profileInfo > div > .followering > p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #676b6f;
+  margin-right: 30px;
+}
+
+.profileInfo > div > .followering > p > span {
+  font-weight: bolder;
+  color: #e7e9ea;
+}
+
+.profileTabs {
+  width: 600px;
+  border-bottom: 1px solid #181818;
+}
+
+.profileTab {
+  cursor: pointer;
+  color: #676b6f;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #181818;
+}
+
+.profileTab:hover {
+  background-color: #181818;
+}
+
+.profileTab > p {
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.profileTrends {
+  margin-top: -30px;
+  margin-left: 620px;
+}
