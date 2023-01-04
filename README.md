@@ -10,3 +10,9 @@ Twitter is one of the most popular social media platforms in the world, and with
 2) Profile
 
 Both designed alike the actual Twitter Pages!
+
+## INSTALLATIONS
+
+NPM: `npm install @mui/icons-material @mui/material @emotion/styled @emotion/react`
+
+BOOTSTRAP: https://getbootstrap.com/docs/5.2/getting-started/introduction/
