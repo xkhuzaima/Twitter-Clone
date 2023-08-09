@@ -27,7 +27,7 @@ function Profile() {
       </div>
       <div className="profileInfo">
         <img
-          src="https://pbs.twimg.com/profile_banners/1591733371830501376/1668334780/1500x500"
+          src="https://yt3.googleusercontent.com/YskdcOypw_w8XAP-C_MuNmUlBdolgA2qPIy-MrScsqpwNctgjCM0J0Obz7ydJ9Jn7Q8-LYSx=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
           style={{ width: "600px" }}
         />
         <div className="row-between">
